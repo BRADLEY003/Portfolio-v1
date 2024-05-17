@@ -50,6 +50,14 @@ p {
 }
 
 /* HERO */
+  #hero h1,
+  #hero h2 {
+    font-size: 1.5rem;
+  }
+ #hero img {
+    width: 100%;
+    height: auto;
+  }
 
 #hero {
   text-align: center;
@@ -134,6 +142,19 @@ p {
   align-items: center;
   flex-direction: column;
 }
+
+.project-container {
+    margin-bottom: 20px;
+  }
+
+ .project-container:last-child {
+    margin-bottom: 0;
+  }
+
+ .project-container img {
+    width: 100%;
+    height: auto;
+  }
 
 #projects .container {
   flex-direction: column;
