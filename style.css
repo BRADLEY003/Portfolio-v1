@@ -1,5 +1,14 @@
 /* GENERAL */
-
+@media (max-width: 768px) {
+  /* Adjust the layout for smaller screens */
+  #hero,
+  #about,
+  #experience,
+  #projects,
+  #contact {
+    padding: 20px;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
